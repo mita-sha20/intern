@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+section {
+  width: 100%;
+  height: 100vh !important;
+  background: url(images/bg.jpg);
+  background-size: cover;
+  object-fit: cover;
+  overflow: hidden;
+}
+section .leftbox {
+  width: 48%;
+  height: 100%;
+  float: left;
+  padding: 50px;
+  box-sizing: border-box;
+}
+section .leftbox .content {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+section .leftbox .content:hover {
+  background: #e91e63;
+}
+
+section .leftbox .content h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+section .leftbox .content p {
+  padding: 0;
+  margin: 10 0 0;
+}
+
+.clear {
+  clear: both;
+}
+
+section .events {
+  background: rgba(0, 0, 0, 0.5);
+  width: 48%;
+  height: 100%;
+  float: right;
+}
+
+section .events .ev-content {
+  padding: 40px;
+}
+section .events .ev-content .ev-item {
+  margin-bottom: 10px;
+}
+
+section .events .ev-content .ev-item .time {
+  float: left;
+  width: 25%;
+  height: 180px;
+  background: black;
+  color: white;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 35px;
+}
+
+section .events .ev-content .ev-item .time:hover {
+  background: #e91e63;
+}
+section .events .ev-content .ev-item .details {
+  width: 75%;
+  height: 180px;
+  float: right;
+  background: white;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+section .events .ev-content .ev-item .details a {
+  float: right;
+  padding: 5px;
+  border: 1px solid black;
+  text-decoration: none;
+}
+
+section .events .ev-content .ev-item .details a:hover {
+  color: #e91e63;
+}
